@@ -215,6 +215,11 @@ input, select, textarea {
 		margin-bottom:-10px
 	}
 
+	.profilPicture {
+		margin-bottom: -30px;
+		border-radius: 100%; 
+		border: 3px solid rgba(128, 128, 128, 0.57);
+	}
 /* BG */
 
 	#bg {
@@ -742,11 +747,16 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
-
-
 			.handwave {
 				width: 85px; 
 				margin-bottom:-10px
+			}
+
+			.profilPicture {
+				width: 105px;
+				margin-bottom: -25px;
+				border-radius: 100%; 
+				border: 3px solid rgba(128, 128, 128, 0.57);
 			}
 
 		/* BG */
@@ -834,6 +844,13 @@ input, select, textarea {
 			.handwave {
 				width: 65px; 
 				margin-bottom:-10px
+			}
+
+			.profilPicture {
+				width: 85px;
+				margin-bottom: -20px;
+				border-radius: 100%; 
+				border: 3px solid rgba(128, 128, 128, 0.57);
 			}
 
 
@@ -991,10 +1008,17 @@ input, select, textarea {
 		}
 
 
-.handwave {
-    width: 45px; 
-    margin-bottom:-10px
-}
+		.handwave {
+			width: 45px; 
+			margin-bottom:-10px
+		}
+
+		.profilPicture {
+			width: 55px;
+			margin-bottom: -15px;
+			border-radius: 100%; 
+			border: 3px solid rgba(128, 128, 128, 0.57);
+		}
 
 		#bg {
 			background-size: 300px auto;
@@ -1095,10 +1119,17 @@ input, select, textarea {
 		}
 
 
-.handwave {
-    width: 45px; 
-    margin-bottom:-10px
-}
+		.handwave {
+			width: 45px; 
+			margin-bottom:-10px
+		}
+		
+		.profilPicture {
+			width: 55px;
+			margin-bottom: -15px;
+			border-radius: 100%; 
+			border: 3px solid rgba(128, 128, 128, 0.57);
+		}
 
 		#bg {
 			background-size: 412.5px auto;
