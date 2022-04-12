@@ -8,6 +8,19 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/cssshake-min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			var firstClick = false
+			document.onclick= function(event) {
+				if(firstClick == false) {
+					var audio = document.createElement("AUDIO")
+					audio.setAttribute('id','audioId');
+					document.body.appendChild(audio);
+					audio.src = "startup.mp3"
+					audio.play()
+				}
+				firstClick = true
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
