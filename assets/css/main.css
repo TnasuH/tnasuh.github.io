@@ -1252,30 +1252,35 @@ a:hover {
 }
 
 .apps1 {
+	cursor: pointer;
 	position: fixed;
 	bottom: 30px;
 	height: 250px;
 	animation: animApps1 30s linear infinite;
 }
 .apps2 {
+	cursor: pointer;
 	position: fixed;
 	bottom: 30px;
 	height: 250px;
 	animation: animApps2 30s linear infinite;
 }
 .apps3 {
+	cursor: pointer;
 	position: fixed;
 	bottom: 30px;
 	height: 250px;
 	animation: animApps3 25s linear infinite;
 }
 .apps4 {
+	cursor: pointer;
 	position: fixed;
 	bottom: 30px;
 	height: 250px;
 	animation: animApps4 40s linear infinite;
 }
 .apps5 {
+	cursor: pointer;
 	position: fixed;
 	bottom: 30px;
 	height: 250px;
