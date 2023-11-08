@@ -1406,34 +1406,102 @@ a:hover {
 	}
 }
 
-  .info-popup {
+.info-popup {
 	display: none;
 	position: absolute;
-	top: 100%; /* Balonun hemen altından başlayacak */
-	left: -40px; /* Balonun konumunu ayarlayabilirsiniz */
+	top: 100%;
+	/* Balonun hemen altından başlayacak */
+	left: -40px;
+	/* Balonun konumunu ayarlayabilirsiniz */
 	background-color: rgba(128, 128, 128, 1);
-	border: 1px solid  rgba(128, 128, 128, 1);
+	border: 1px solid rgba(128, 128, 128, 1);
 	padding: 10px;
 	border-radius: 10px;
 	z-index: 1;
-	width: 200px; /* Balonun genişliğini ayarlayabilirsiniz */
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Gölge efekti ekleyebilirsiniz */
-  }
-  
-  .balon {
+	width: 200px;
+	/* Balonun genişliğini ayarlayabilirsiniz */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	/* Gölge efekti ekleyebilirsiniz */
+}
+
+.balon {
 	width: 10px;
 	height: 10px;
-	background-color:  rgba(128, 128, 128, 1);
-	border: 1px solid   rgba(128, 128, 128, 1);
+	background-color: rgba(128, 128, 128, 1);
+	border: 1px solid rgba(128, 128, 128, 1);
 	transform: rotate(45deg);
 	position: absolute;
-	top: -5px; /* Balonun üstünden başlayacak */
-	left: 90px; /* Balonun konumunu ayarlayabilirsiniz */
-  }
-  
-  .app:hover .info-popup {
+	top: -5px;
+	/* Balonun üstünden başlayacak */
+	left: 90px;
+	/* Balonun konumunu ayarlayabilirsiniz */
+}
+
+.app:hover .info-popup {
 	display: block;
-  }
-  .info-popup p {
+}
+
+.info-popup p {
 	text-align: center;
-  }
+}
+
+.toggleButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Temel stil */
+.toggle {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+/* Görünmez checkbox'ın stilini ayarla */
+.toggle input {
+	display: none;
+}
+
+/* Slider'ın stilini ayarla */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	/* Kapalı durumun rengi */
+	transition: 0.4s;
+	border-radius: 34px;
+}
+
+/* Açık durumun rengi */
+.toggle input:checked+.slider {
+	background-color: #234c68;
+}
+
+/* Toggle düğmesinin "kapalı" ve "açık" görselini ayarla */
+.slider::before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	/* Toggle düğmesinin rengi */
+	transition: 0.4s;
+	border-radius: 50%;
+}
+
+/* Checkbox açık olduğunda toggle düğmesini kaydır */
+.toggle input:checked+.slider::before {
+	transform: translateX(26px);
+}
+
+.centered-text {
+	color: #ecf0f1b0
+}

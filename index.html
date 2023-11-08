@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/cssshake-min.css" />
 	<link rel="stylesheet" href="assets/css/star.css" />
+	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+		integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -40,6 +42,13 @@
 				<h1><img class="profilPicture" src="assets/css/images/tariknasuhoglu.jpg" /> Hi, I'm Tarik! <img
 						class="handwave constant-tilt-shake" src="assets/css/images/wavinghand.png" /></h1>
 				<p><i class="icon brands fa-apple fa-lg"></i> iOS Engineer</p>
+				<div class="toggleButton">
+					<label class="centered-text">Portfolio &nbsp;</label>
+					<label class="toggle">
+						<input type="checkbox" id="portfolioToggle" checked>
+						<span class="slider"></span>
+					</label>
+				</div>
 				<nav>
 					<ul>
 						<li><a href="https://github.com/tnasuh" target="_blank"
@@ -78,7 +87,7 @@
 			<img class="appsImageRotation1" src="assets/css/images/smsmanagement.png" />
 			<div class="info-popup">
 				<div class="balon"></div>
-				<p>SMS Management<br/>SMS Filter</p>
+				<p>SMS Management<br />SMS Filter</p>
 			</div>
 		</div>
 		<div class="app apps2"
@@ -94,7 +103,7 @@
 			<img class="appsImageRotation3" src="assets/css/images/garanti.png" />
 			<div class="info-popup">
 				<div class="balon"></div>
-				<p>Garanti BBVA<br/>Mobile Banking App</p>
+				<p>Garanti BBVA<br />Mobile Banking App</p>
 			</div>
 		</div>
 		<div class="app apps4"
@@ -102,7 +111,7 @@
 			<img class="appsImageRotation4" src="assets/css/images/globalimGif.gif" />
 			<div class="info-popup">
 				<div class="balon"></div>
-				<p>Globalim<br/>HR App (Enterprise)</p>
+				<p>Globalim<br />HR App (Enterprise)</p>
 			</div>
 		</div>
 		<div class="app apps5"
@@ -110,11 +119,16 @@
 			<img class="bilgi-trigger appsImageRotation5" src="assets/css/images/bipmeet.png" />
 			<div class="info-popup">
 				<div class="balon"></div>
-				<p>Bip Meet<br/>Video Conference App</p>
+				<p>Bip Meet<br />Video Conference App</p>
 			</div>
 		</div>
 	</div>
 	<script>
+		$(document).ready(function () {
+			$('#portfolioToggle').change(function () {
+				$(".app").toggle(3000);
+			});
+		});
 		document.addEventListener('DOMContentLoaded', () => {
 			const appsElements = document.querySelectorAll('.app');
 			appsElements.forEach((appElement) => {
