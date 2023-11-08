@@ -1405,3 +1405,35 @@ a:hover {
 		transform: translate(300px, 300px);
 	}
 }
+
+  .info-popup {
+	display: none;
+	position: absolute;
+	top: 100%; /* Balonun hemen altından başlayacak */
+	left: -40px; /* Balonun konumunu ayarlayabilirsiniz */
+	background-color: rgba(128, 128, 128, 1);
+	border: 1px solid  rgba(128, 128, 128, 1);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 1;
+	width: 200px; /* Balonun genişliğini ayarlayabilirsiniz */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Gölge efekti ekleyebilirsiniz */
+  }
+  
+  .balon {
+	width: 10px;
+	height: 10px;
+	background-color:  rgba(128, 128, 128, 1);
+	border: 1px solid   rgba(128, 128, 128, 1);
+	transform: rotate(45deg);
+	position: absolute;
+	top: -5px; /* Balonun üstünden başlayacak */
+	left: 90px; /* Balonun konumunu ayarlayabilirsiniz */
+  }
+  
+  .app:hover .info-popup {
+	display: block;
+  }
+  .info-popup p {
+	text-align: center;
+  }
