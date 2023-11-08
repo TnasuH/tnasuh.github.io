@@ -1258,6 +1258,7 @@ a:hover {
 	height: 250px;
 	animation: animApps1 30s linear infinite;
 }
+
 .apps2 {
 	cursor: pointer;
 	position: fixed;
@@ -1265,6 +1266,7 @@ a:hover {
 	height: 250px;
 	animation: animApps2 30s linear infinite;
 }
+
 .apps3 {
 	cursor: pointer;
 	position: fixed;
@@ -1272,6 +1274,7 @@ a:hover {
 	height: 250px;
 	animation: animApps3 25s linear infinite;
 }
+
 .apps4 {
 	cursor: pointer;
 	position: fixed;
@@ -1279,6 +1282,7 @@ a:hover {
 	height: 250px;
 	animation: animApps4 40s linear infinite;
 }
+
 .apps5 {
 	cursor: pointer;
 	position: fixed;
@@ -1287,51 +1291,68 @@ a:hover {
 	animation: animApps5 20s linear infinite;
 }
 
-.appsImageRotation1{
-		width: auto; /* Genisligi otomatik olarak ayarlar */
-		height: 100%; /* Yuksekligi div ile ayni yapar */
-		transition: transform 14s;
-		animation: Rotation1 10s linear infinite;
+.appsImageRotation1 {
+	width: auto;
+	/* Genisligi otomatik olarak ayarlar */
+	height: 100%;
+	/* Yuksekligi div ile ayni yapar */
+	transition: transform 14s;
+	animation: Rotation1 10s linear infinite;
 }
-.appsImageRotation2{
-	width: auto; /* Genisligi otomatik olarak ayarlar */
-	height: 100%; /* Yuksekligi div ile ayni yapar */
+
+.appsImageRotation2 {
+	width: auto;
+	/* Genisligi otomatik olarak ayarlar */
+	height: 100%;
+	/* Yuksekligi div ile ayni yapar */
 	transition: transform 14s;
 	animation: Rotation2 14s linear infinite;
 }
-.appsImageRotation3{
-	width: auto; /* Genisligi otomatik olarak ayarlar */
-	height: 100%; /* Yuksekligi div ile ayni yapar */
+
+.appsImageRotation3 {
+	width: auto;
+	/* Genisligi otomatik olarak ayarlar */
+	height: 100%;
+	/* Yuksekligi div ile ayni yapar */
 	transition: transform 14s;
 	animation: Rotation1 60s linear infinite;
 }
-.appsImageRotation4{
-	width: auto; /* Genisligi otomatik olarak ayarlar */
-	height: 100%; /* Yuksekligi div ile ayni yapar */
+
+.appsImageRotation4 {
+	width: auto;
+	/* Genisligi otomatik olarak ayarlar */
+	height: 100%;
+	/* Yuksekligi div ile ayni yapar */
 	transition: transform 14s;
 	animation: Rotation2 10s linear infinite;
 }
-.appsImageRotation5{
-	width: auto; /* Genisligi otomatik olarak ayarlar */
-	height: 100%; /* Yuksekligi div ile ayni yapar */
+
+.appsImageRotation5 {
+	width: auto;
+	/* Genisligi otomatik olarak ayarlar */
+	height: 100%;
+	/* Yuksekligi div ile ayni yapar */
 	transition: transform 14s;
 	animation: Rotation2 35s linear infinite;
 }
+
 @keyframes Rotation1 {
 	0% {
-	  transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
+
 	100% {
-	  transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
 }
 
 @keyframes Rotation2 {
 	0% {
-	  transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
+
 	100% {
-	  transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
 }
 
@@ -1339,41 +1360,48 @@ a:hover {
 	from {
 		transform: translateX(2000px);
 	}
+
 	to {
 		transform: translate(-1000px, -1000px);
 	}
 }
+
 @keyframes animApps2 {
 	0% {
 		transform: translate(-200px, -100px);
 	}
+
 	100% {
 		transform: translate(1000px, -1000px);
 	}
 }
+
 @keyframes animApps3 {
 	0% {
 		transform: translate(150px, -1000px);
 	}
+
 	100% {
 		transform: translate(2500px, 1080px);
 	}
 }
+
 @keyframes animApps4 {
 	from {
 		transform: translate(2000px, -1000px);
 	}
+
 	to {
 		transform: translate(0px, 300px);
 	}
 }
+
 @keyframes animApps5 {
 	from {
 		transform: translate(1000px, -1000px);
 	}
+
 	to {
 		transform: translate(300px, 300px);
 	}
 }
-
-

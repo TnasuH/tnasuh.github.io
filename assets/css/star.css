@@ -40,15 +40,15 @@ body {
 }
 
 .starTitle {
-		font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', cursive;
 	font-size: 4rem;
-  margin-bottom: .5rem;
+	margin-bottom: .5rem;
 	width: 100%;
 }
 
 .starSub-title {
-  border-top: .1rem solid #fff;
-  padding: 1rem 4rem;
+	border-top: .1rem solid #fff;
+	padding: 1rem 4rem;
 	text-align: center;
 }
 
@@ -113,6 +113,7 @@ body {
 	from {
 		transform: translateY(0px);
 	}
+
 	to {
 		transform: translateY(-2000px);
 	}
