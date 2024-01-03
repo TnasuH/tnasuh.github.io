@@ -1,5 +1,4 @@
-![TnasuH](https://pbs.twimg.com/profile_banners/97921644/1649688420/1500x500)
-
+![TnasuH](https://pbs.twimg.com/profile_banners/97921644/1695669770/1500x500)
 <div id="badges" align="center">
   <a href="https://linkedin.com/in/tariknasuhoglu">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
