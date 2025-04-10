@@ -1,11 +1,11 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "R2PCJC88J9.com.tnasuh.lbTesttnasuh",
-                "paths": ["*"]
-            }
-        ]
-    }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "R2PCJC88J9.com.nesine.new-bet-dev",
+        "paths": ["*"]
+      }
+    ]
+  }
 }
