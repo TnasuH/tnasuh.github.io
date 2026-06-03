@@ -3,9 +3,16 @@
     "apps": [],
     "details": [
       {
-        "appID": "QU6B36V3HC.com.starlet.letsbet",
-        "paths": ["*"]
+        "appID": "R2PCJC88J9.com.nesine.new-bet-dev",
+        "paths": [
+          "*"
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "R2PCJC88J9.com.nesine.new-bet-dev"
     ]
   }
 }
